@@ -49,7 +49,7 @@ jobs:
     # Reporter of reviewdog command [github-pr-check,github-pr-review,github-pr-annotations,github-check].
     reporter: # optional, default is github-pr-annotations
     # Exit code for reviewdog when errors are found [true,false]
-Default is `false`.
+Default is false.
 
     fail_on_error: # optional, default is false
     # Report level for reviewdog [info,warning,error].
