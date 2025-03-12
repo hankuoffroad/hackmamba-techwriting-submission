@@ -114,4 +114,4 @@ Moving forward, the role of tech writers in DevOps will continue to evolve, focu
 
 By embedding documentation into DevOps workflows, you empower teams to ship better content, faster. The goal isn’t just to document. It’s to enable collaboration, knowledge sharing, and continuous improvement.
 
-![Mattermost workflow - Documentation PR checklist](hackmamba-techwriting-submission/docs/mattermost.png "Mattermost messaging platform")
+![Mattermost workflow - Documentation PR checklist](https://github.com/hankuoffroad/hackmamba-techwriting-submission/blob/main/docs/mattermost.png "Mattermost messaging platform")
