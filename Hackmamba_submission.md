@@ -103,7 +103,7 @@ The Create monthly release workflow facilitates the generation of monthly docume
 
 These workflows demonstrate Rocky Linux's commitment to maintaining up-to-date and reliable documentation through automation, benefiting contributors and users.
 
-## 4. Conclusion – Key takeaways and future directions for documentation in DevOps.
+## 4. Conclusion – Key takeaways and future directions for documentation in DevOps
 
 Effective documentation is more than just writing. It’s about building scalable, developer-friendly workflows that enhance collaboration and maintain quality. The Rocky Linux GitHub Actions setup with Mattermost is a prime example of how automation streamlines documentation workflows, reduces friction in PR reviews, and ensures documentation stays up-to-date with minimal manual intervention.
 
@@ -114,4 +114,4 @@ Moving forward, the role of tech writers in DevOps will continue to evolve, focu
 
 By embedding documentation into DevOps workflows, you empower teams to ship better content, faster. The goal isn’t just to document. It’s to enable collaboration, knowledge sharing, and continuous improvement.
 
-![Mattermost workflow - Documentation PR checklist](https://github.com/hankuoffroad/hackmamba-techwriting-submission/blob/main/docs/mattermost.png "Mattermost messaging platform"
+![Mattermost workflow - Documentation PR checklist](hackmamba-techwriting-submission/docs/mattermost.png "Mattermost messaging platform")
