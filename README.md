@@ -1,6 +1,6 @@
 # hackmamba-techwriting-submission
 
-This repository contains my submission for Hackmamba's freelance technical writing application. It includes insights on **scaling documentation in DevOps**, automating workflows with **GitHub Actions**, and improving **developer collaboration** in technical content.  
+This repository contains my submission for Hackmamba's technical writing application. It includes insights on **scaling documentation in DevOps**, automating workflows with **GitHub Actions**, and improving **developer collaboration** in technical content.  
 
 ## 📌 What's Inside?  
 - **Final Review Document** – Key takeaways and future directions for documentation in DevOps.  
