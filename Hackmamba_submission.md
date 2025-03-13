@@ -4,9 +4,7 @@
 
 ### Plan Persona-based Documentation
 
-When I was working on documentation, the internal teams (R&D, sales, and service) assumed that users had the same tech knowledge they did. But, this mindset ended up creating documentation that was either way too technical or way too generic, and it just ended up confusing users instead of helping them out.
-
-    * Solution: I challenged these assumptions by analyzing real-world user behavior, pain points, and support tickets.
+While leading a documentation project for a new product launch, I noticed that internal teams (R&D, sales, and service) tended to assume that users shared their technical expertise. But, this mindset ended up creating documentation that was either way too technical or way too generic, and it just ended up confusing users instead of helping them out. To address this, I conducted an in-depth analysis of real-world user behavior, identified pain points, and reviewed support tickets to challenge these assumptions.
 
 Samsung's B2B solutions have diverse users, including installers, service partners, system administrators, and developers. Instead of a one-size-fits-all approach, I leveraged user research findings to spot recurring questions on support tickets and keep track of real-time insight into customer messages using Sentiment Analysis model. That's where persona-based documentation comes into play:
 
@@ -50,13 +48,9 @@ Each PR automatically builds and generates a preview, allowing you to see the fi
 
 Every PR undergoes a series of tests. One checks external links to prevent broken URLs, while another enforces style guidelines by flagging specific words. The test results are attached to the PR for review. In static site generators like Antora, Hugo, and Jekyll, internal link validation is typically handled in the following ways:
 
-#### Antora:
+- Antora: Antora has built-in tools for checking internal links. It uses Asciidoc for content, and when generating documentation, it ensures that internal links are properly resolved. Antora uses xref validation (internal links) during site generation.
 
-Antora has built-in tools for checking internal links. It uses Asciidoc for content, and when generating documentation, it ensures that internal links are properly resolved. Antora uses xref validation (internal links) during site generation.
-
-#### Hugo:
-
-Hugo has a link-checking feature through various plugins and built-in functionalities. You can integrate the broken-link-checker (a third-party tool) into the build process to check for broken internal and external links.
+- Hugo: Hugo has a link-checking feature through various plugins and built-in functionalities. You can integrate the broken-link-checker (a third-party tool) into the build process to check for broken internal and external links.
 
 ### Implement Style Guide and Vale scripting
 
@@ -90,14 +84,11 @@ Mattermost is an open-source, self-hosted messaging platform integrated with CI/
 
 Key insights from months of testing and hands-on experience with their setup include:
 
-### Automated Build and Deployment:
-The Build and Deploy (Fastly) workflow is configured to automatically build and deploy documentation updates, ensuring that the latest changes are promptly reflected on the live site.
+- Automated Build and Deployment: The Build and Deploy (Fastly) workflow is configured to automatically build and deploy documentation updates, ensuring that the latest changes are promptly reflected on the live site.
 
-### Regular Testing:
-The Run Tests workflow performs regular checks on the documentation, helping to identify and address issues early in the development process. 
+- Regular Testing: The Run Tests workflow performs regular checks on the documentation, helping to identify and address issues early in the development process. 
 
-### Monthly Releases:
-The Create monthly release workflow facilitates the generation of monthly documentation releases, ensuring that users have the most recent and stable versions of the documentation. 
+- Monthly Releases: The Create monthly release workflow facilitates the generation of monthly documentation releases, ensuring that users have the most recent and stable versions of the documentation. 
 
 [GitHub Actions workflow runs of Rocky Linux](https://github.com/rocky-linux/documentation/actions)
 
