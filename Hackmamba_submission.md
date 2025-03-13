@@ -12,7 +12,7 @@ Samsung's B2B solutions have diverse users, including installers, service partne
 - System Administrators: The Admin page includes release notes, deployment guides, and security policies to help enterprise customers manage and secure Samsung devices
 - Developers: The Developer page provides the latest release notes, SDK, and API references to support developers in integrating Samsung services using REST APIs and SDK.
 
-This structured documentation approach led to customer and developer feedback integration into documentation, improving long-term service strategies.
+This structured documentation approach allowed customer and developer feedback to be effectively integrated into the documentation, improving long-term service strategies.
 
 ### Lower barriers for non-developers
 
