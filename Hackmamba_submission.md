@@ -4,9 +4,9 @@
 
 ### Plan Persona-based Documentation
 
-While leading a documentation project for a new product launch, I noticed that internal teams (R&D, sales, and service) tended to assume that users shared their technical expertise. But, this mindset ended up creating documentation that was either way too technical or way too generic, and it just ended up confusing users instead of helping them out. To address this, I conducted an in-depth analysis of real-world user behavior, identified pain points, and reviewed support tickets to challenge these assumptions.
+While leading a documentation project for a new product launch, I noticed that internal teams (R&D, sales, and service) tended to assume that users shared their technical expertise. The anomaly led to overly technical or too generic, ultimately confusing users rather than assisting them. To address this, I conducted an in-depth analysis of real-world user behavior, identified pain points, and reviewed support tickets to challenge these assumptions.
 
-Samsung's B2B solutions have diverse users, including installers, service partners, system administrators, and developers. Instead of a one-size-fits-all approach, I leveraged user research findings to spot recurring questions on support tickets and keep track of real-time insight into customer messages using Sentiment Analysis model. That's where persona-based documentation comes into play:
+Samsung's B2B solutions have diverse users, including installers, service partners, system administrators, and developers. Instead of a one-size-fits-all approach, I leveraged user research findings to spot recurring questions on support tickets and keep track of real-time insight into customer messages using the Sentiment Analysis model. That's where persona-based documentation comes into play:
 
 - Installers and Service Partners: Troubleshooting guides and setup manuals to reduce installation errors and support requests.
 - System Administrators: The Admin page includes release notes, deployment guides, and security policies to help enterprise customers manage and secure Samsung devices
