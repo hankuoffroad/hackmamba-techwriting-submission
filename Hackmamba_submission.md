@@ -16,23 +16,17 @@ This structured documentation approach allowed customer and developer feedback t
 
 ### Lower barriers for non-developers
 
-Tech writers on your team might have diverse backgrounds other than software development.
+Tech writers on your team might have diverse backgrounds other than software development. To make documentation more accessible, it's important to lower the technical barriers for those who are not familiar with development tools. Below are several ways I address this issue.
 
-#### Wiki conversion to documentation page 
+- Wiki conversion to documentation page: Consider the wiki as a place to draft documents before converting them to documentation page and putting them under Git version control. A wiki provides a low barrier of entry and a low learning curve. You can convert wiki to other formats, such as Markdown and AsciiDoc using Pandoc.
 
-Consider the wiki as a place to draft documents before converting them to documentation page and putting them under Git version control. A wiki provides a low barrier of entry and a low learning curve. You can convert wiki to other formats, such as Markdown and AsciiDoc using Pandoc.
+- Web interface: A text editor is like a toolbox for developers. You use it to write and edit code, just like picking the right tool for a task. Tech writers, especially from non-developer backgrounds, find text editors and CI/CD pipeline tricky. Once I understood how these tools help streamline the process, it became much easier to work with them. Until then, web editors in GitHub and GitLab are a good way to smooth the learning curve.
 
-#### Web interface
+- Have strategies for handling failed deployments: Keep in mind that CI/CD might be an unfamiliar concept for non-developers. When my pull request build fails, breaking down a problem into a step-by-step process helps me get my feedback assigned to the right team.
 
-A text editor is like a toolbox for developers. You use it to write and edit code, just like picking the right tool for a task. Tech writers, especially from non-developer backgrounds, find text editors and CI/CD pipeline tricky. Once I understood how these tools help streamline the process, it became much easier to work with them. Until then, web editors in GitHub and GitLab are a good way to smooth the learning curve.
-
-#### Have strategies for handling failed deployments
-
-Keep in mind that CI/CD might be an unfamiliar concept for non-developers. When my pull request build fails, breaking down a problem into a step-by-step process helps me get my feedback assigned to the right team.
-
-- What stage of pipelines failed: a build, test or deploy stage
-- What events were pipelines run on: like when pushing to a branch, creating a merge request, or on a schedule
-- What runner is configured in CI: Public, shared, group, or specific
+  - What stage of pipelines failed: a build, test or deploy stage
+  - What events were pipelines run on: like when pushing to a branch, creating a merge request, or on a schedule
+  - What runner is configured in CI: Public, shared, group, or specific
 
 Stepping back, tech writers play a key role in helping DevOps engineers collaborate with non-technical stakeholders.
 
@@ -92,6 +86,10 @@ Key insights from months of testing and hands-on experience with their setup inc
 
 [GitHub Actions workflow runs of Rocky Linux](https://github.com/rocky-linux/documentation/actions)
 
+Image: GitHub Actions workflow with Mattermost platform (Credit to Rocky Linux)
+
+![Mattermost workflow - Documentation PR checklist](https://github.com/hankuoffroad/hackmamba-techwriting-submission/blob/main/docs/mattermost.png "Mattermost messaging platform")
+
 These workflows demonstrate Rocky Linux's commitment to maintaining up-to-date and reliable documentation through automation, benefiting contributors and users.
 
 ## 4. Conclusion – Key takeaways and future directions for documentation in DevOps
@@ -104,5 +102,3 @@ Moving forward, the role of tech writers in DevOps will continue to evolve, focu
 - Integrating CI/CD best practices to maintain consistency and enforce style guidelines.
 
 By embedding documentation into DevOps workflows, you empower teams to ship better content, faster. The goal isn’t just to document. It’s to enable collaboration, knowledge sharing, and continuous improvement.
-
-![Mattermost workflow - Documentation PR checklist](https://github.com/hankuoffroad/hackmamba-techwriting-submission/blob/main/docs/mattermost.png "Mattermost messaging platform")
